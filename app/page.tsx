@@ -1,13 +1,13 @@
 import Navbar from "@/components/Navbar";
-import CtaSection from "@/components/Sections/CtaSection";
-import FaqSection from "@/components/Sections/FaqSection";
-import FeatureButtomSection from "@/components/Sections/FeatureBottomSection";
-import FeatureSection from "@/components/Sections/FeatureSection";
-import FeaturesSection from "@/components/Sections/FeaturesSection";
-import FooterSection from "@/components/Sections/FooterSection";
-import HeroSection from "@/components/Sections/HeroSection";
-import HowSection from "@/components/Sections/HowSection";
-import WhoSection from "@/components/Sections/WhoSection";
+import CtaSection from "@/components/sections/CtaSection";
+import FaqSection from "@/components/sections/FaqSection";
+import FeatureButtomSection from "@/components/sections/FeatureBottomSection";
+import FeatureSection from "@/components/sections/FeatureSection";
+import FeaturesSection from "@/components/sections/FeaturesSection";
+import FooterSection from "@/components/sections/FooterSection";
+import HeroSection from "@/components/sections/HeroSection";
+import HowSection from "@/components/sections/HowSection";
+import WhoSection from "@/components/sections/WhoSection";
 
 export default function Home() {
   return (
