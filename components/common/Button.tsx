@@ -2,45 +2,7 @@ import { cn } from "@/utils";
 
 type variantTypes = "primary" | "primary_lg" | "white" | "cyan" | "footer";
 
-// const variants = {
-//   primary: buttonVariant(),
-//   primary_lg: buttonVariant({
-//     color: "primary_lg",
-//     size: "lg",
-//     padding: "lg",
-//     tracking: "lg",
-//     text: "white",
-//   }),
-//   cyan: buttonVariant({
-//     color: "cyan",
-//     size: "sm",
-//     border: "cyan",
-//     font: "normal",
-//     padding: "sm",
-//     tracking: "cyan",
-//     text: "primary",
-//   }),
-//   white: buttonVariant({
-//     color: "white",
-//     size: "sm",
-//     border: "primary",
-//     font: "bold",
-//     padding: "base",
-//     tracking: "base",
-//     text: "primary",
-//   }),
-//   footer: buttonVariant({
-//     color: "white",
-//     size: "lg",
-//     padding: "md",
-//     tracking: "lg",
-//     text: "primary_400",
-//     border: "primary_400",
-//     font: "normal",
-//   }),
-// };
-
-const variants = {
+const variants: Record<variantTypes, string> = {
   primary:
     "bg-primary h-13 text-white text-base border-none font-bold py-4 px-5 leading-[19.2px] tracking-[1%]",
   primary_lg:
