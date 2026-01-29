@@ -10,7 +10,7 @@ export default function HowSection() {
       <div className="flex flex-col items-center gap-6">
         <Button text="Simple Steps" variant="cyan" />
 
-        <div className="flex flex-col gap-3 items-center font-satoshi">
+        <div className="flex flex-col gap-3 items-center ">
           <p className="font-medium text-5xl text-grey-950 leading-[57.6px] tacking-[0.25%]">
             How it Works
           </p>

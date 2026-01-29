@@ -34,7 +34,7 @@ export default function StepContainer({
 
   return (
     <div className={cn("flex flex-col gap-4 w-full h-83.5", className)}>
-      <div className="bg-white rounded-full py-3 pr-3 pl-6 w-full flex justify-between items-center font-satoshi font-normal text-grey-950">
+      <div className="bg-white rounded-full py-3 pr-3 pl-6 w-full flex justify-between items-center  font-normal text-grey-950">
         <p className="text-2xl tracking-[1%] leading-[28.8px]">{step.title}</p>
         <div className="relative size-11.25 rounded-full flex items-center justify-center">
           <div className="size-11.25 rounded-full border-3 border-primary border-dashed flex items-center justify-center absolute" />
@@ -44,7 +44,7 @@ export default function StepContainer({
         </div>
       </div>
 
-      <div className="bg-white h-62.25 p-6 rounded-4xl flex flex-col justify-end w-full font-satoshi gap-4.25">
+      <div className="bg-white h-62.25 p-6 rounded-4xl flex flex-col justify-end w-full  gap-4.25">
         <p className="font-bold text-2xl leading-[28.8px] tracking-[1%] text-grey-950">
           {title}
         </p>

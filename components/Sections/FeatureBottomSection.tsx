@@ -13,8 +13,8 @@ export default function FeatureButtomSection() {
         >
           <img src={item.src} alt={item.name} className="size-13" />
 
-          <div className="flex flex-col gap-3 items-center font-satoshi">
-            <p className="text-center font-bold text-[20px] leading-7 tracking-[1%] text-grey-950">
+          <div className="flex flex-col gap-3 items-center ">
+            <p className="text-center font-bold text-xl leading-7 tracking-[1%] text-grey-950">
               {item.title}
             </p>
             <p className="text-center font-normal text-base leading-[25.6px] tracking-[0.15%] text-grey-700">

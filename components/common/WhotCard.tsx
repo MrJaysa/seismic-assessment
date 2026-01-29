@@ -9,7 +9,7 @@ const Description = ({
   subtitle: string;
 }) => {
   return (
-    <div className="flex-1 flex flex-col gap-3 p-5 font-satoshi justify-center">
+    <div className="flex-1 flex flex-col gap-3 p-5  justify-center">
       <p className="font-bold text-2xl leading-[28.8px] tracking-[1%] text-grey-950">
         {title}
       </p>
@@ -21,7 +21,6 @@ const Description = ({
 };
 
 export default function WhotCard({ content }: { content: WhotCardType }) {
-  console.log(content.isDown);
   return (
     <div
       className={cn(

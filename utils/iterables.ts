@@ -1,10 +1,10 @@
 import { WhotCardsType } from "@/utils/types";
 
-const NavLinks: { title: string; link: string }[] = [
+const NavLinks: { title: string; link: string | undefined }[] = [
   { title: "How it Works", link: "#hiw" },
   { title: "Features", link: "#feature" },
   { title: "FAQs", link: "#faqs" },
-  { title: "Support", link: "#" },
+  { title: "Support", link: undefined },
 ];
 
 const storeCards: { name: string; src: string }[] = [
@@ -112,4 +112,58 @@ const featureBottomCards: {
   },
 ];
 
-export { featureBottomCards, featureCards, NavLinks, storeCards, whotCards };
+const faqList: { question: string; answer: string; key: string }[] = [
+  {
+    key: "pwa",
+    question: "Do I get a personal warehouse address?",
+    answer:
+      "No. All packages are received at our shared overseas warehouse and processed securely.",
+  },
+  {
+    key: "hcf",
+    question: "Do you handle customs fees?",
+    answer:
+      "Customs duties are determined by Nigerian customs and are not controlled by us.",
+  },
+  {
+    key: "cis",
+    question: "Can I shop from any international store?",
+    answer: "Yes, as long as the store can ship to our warehouse location.",
+  },
+  {
+    key: "tmp",
+    question: "Can I track my package?",
+    answer: "Yes. You’ll receive tracking updates from warehouse to delivery.",
+  },
+  {
+    key: "wmd",
+    question: "What if my item is damaged?",
+    answer: "Optional insurance is available for eligible shipments.",
+  },
+];
+
+const ctaCard: { key: string; src: string; isFull?: boolean }[] = [
+  { key: "connect", src: "/images/connect.png", isFull: true },
+  { key: "package", src: "/images/package.png" },
+  { key: "delivery", src: "/images/delivery.png" },
+];
+
+const footerLinks: { key: string; text: string; link: string | undefined }[] = [
+  { key: "hiwf", text: "How it Works", link: "#hiw" },
+  { key: "featuref", text: "Features", link: "#feature" },
+  { key: "faqsf", text: "FAQs", link: "#faqs" },
+  { key: "contact", text: "Contact Us", link: undefined },
+  { key: "track-order", text: "Track Order", link: undefined },
+  { key: "tos", text: "Terms of Service", link: undefined },
+];
+
+export {
+  ctaCard,
+  faqList,
+  featureBottomCards,
+  featureCards,
+  footerLinks,
+  NavLinks,
+  storeCards,
+  whotCards,
+};

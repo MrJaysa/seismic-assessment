@@ -8,7 +8,7 @@ export default function WhoSection() {
       <div className="flex flex-col items-center gap-6">
         <Button text="Built for You" variant="cyan" />
 
-        <div className="flex flex-col gap-3 items-center font-satoshi">
+        <div className="flex flex-col gap-3 items-center ">
           <p className="font-medium text-5xl text-grey-950 leading-[57.6px] tacking-[0.25%]">
             Who Is This For?
           </p>

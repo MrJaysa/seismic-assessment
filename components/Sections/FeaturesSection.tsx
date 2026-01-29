@@ -7,7 +7,7 @@ export default function FeaturesSection() {
       <div className="flex flex-col items-center gap-6">
         <Button text="Platform Highlights" variant="cyan" />
 
-        <div className="flex flex-col gap-3 items-center font-satoshi">
+        <div className="flex flex-col gap-3 items-center ">
           <p className="font-medium text-5xl text-grey-950 leading-[57.6px] tacking-[0.25%]">
             Everything You Need, In One Place
           </p>
@@ -29,7 +29,7 @@ export default function FeaturesSection() {
               alt={card.name}
               className="bg-cover aspect-auto h-81"
             />
-            <div className="flex-1 flex flex-col gap-3 p-5 font-satoshi">
+            <div className="flex-1 flex flex-col gap-3 p-5 ">
               <p className="font-bold text-2xl leading-[28.8px] tracking-[1%] text-grey-950">
                 {card.title}
               </p>

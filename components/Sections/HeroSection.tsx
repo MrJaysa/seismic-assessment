@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section id="hero" className="py-12 flex flex-col gap-6 items-center">
       <Button text="Global Shopping, Made Simple" variant="cyan" />
 
-      <p className="font-satoshi font-black text-[52px] leading-[62.4px] text-center tracking-[0.25%] text-grey-950">
+      <p className=" font-black text-[52px] leading-[62.4px] text-center tracking-[0.25%] text-grey-950">
         Buy from International Stores. <br /> We Deliver to Nigeria.
       </p>
 
@@ -13,7 +13,7 @@ export default function HeroSection() {
         <img src="/images/items.png" alt="items" className="w-full" />
       </div>
 
-      <p className="text-center font-satoshi font-normal text-base tracking-[0.15%] leading-[25.6px] text-grey-700">
+      <p className="text-center  font-normal text-base tracking-[0.15%] leading-[25.6px] text-grey-700">
         We help{" "}
         <span className="text-grey-950"> Nigerians shop from abroad</span>,
         receive items at our overseas warehouse, and <br />

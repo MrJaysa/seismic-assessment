@@ -1,10 +1,38 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on",
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-    },
-    "javascript.preferences.importModuleSpecifier": "non-relative",
-    "typescript.preferences.importModuleSpecifier": "non-relative"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "chat.agent.codeBlockProgress": false,
+  "chat.agent.enabled": false,
+  "chat.checkpoints.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.detectParticipant.enabled": false,
+  "chat.extensionUnification.enabled": false,
+  "chat.exitAfterDelegation": false,
+  "chat.extensionTools.enabled": false,
+  "chat.notifyWindowOnConfirmation": false,
+  "chat.notifyWindowOnResponseReceived": false,
+  "chat.sendElementsToChat.attachCSS": false,
+  "chat.sendElementsToChat.attachImages": false,
+  "chat.sendElementsToChat.enabled": false,
+  "chat.suspendThrottling": false,
+  "chat.todoListTool.writeOnly": false,
+  "chat.tools.terminal.autoApproveWorkspaceNpmScripts": false,
+  "chat.tools.terminal.enableAutoApprove": false,
+  "chat.tools.terminal.preventShellHistory": false,
+  "chat.undoRequests.restoreInput": false,
+  "chat.viewSessions.enabled": false,
+  "chat.viewTitle.enabled": false,
+  "chat.viewWelcome.enabled": false,
+  "inlineChat.holdToSpeech": false,
+  "chat.useAgentsMdFile": false,
+  "chat.tools.todos.showWidget": false,
+  "chat.implicitContext.suggestedContext": false,
+  "chat.math.enabled": false,
+  "chat.disableAIFeatures": true
 }
